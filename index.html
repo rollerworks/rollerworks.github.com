@@ -6,12 +6,11 @@
 </head>
 <body>
 <div class="container">
-    <a href="/"><img src="img/logo.png" alt="Rollerworks - Open-source software"></a>
+    <h1><a href="https://github.com/rollerworks/"><img src="img/logo.png" alt="Rollerworks - Open-source software"></a></h1>
 
-    <div class="jumbotron">
-        <h1>Rollerworks - open-source software</h1>
-        <p><i class="glyphicon glyphicon-alert"></i> This website is currently under active development, for now please
-            take a look at some of our projects.</p>
+    <div class="alert alert-info">
+        <p><i class="glyphicon glyphicon-alert"></i> This website is currently under active development,
+            for now please take a look at some of our projects.</p>
     </div>
 
     <h2>Standalone libraries (Components)</h2>
@@ -36,13 +35,10 @@
                 </div>
                 <div class="panel-body">
                     <p>RollerworksDatagrid provides a powerful datagrid system for your PHP applications.</p>
-                    <p>Displaying an objects list is one of the most common tasks in web applications and probably the easiest one. So how can this library help you?
-                    <p>The Datagrid system makes the styling and transforming of your data more uniform and easier to use. Secondly the system can take care of specific (styling) issues like sorting and paginating.<br /> 
-                        All without duplicating code or degrading performance.</p>
+                    <p>The Datagrid system makes the styling and transforming of your data more uniform and easier to use. Secondly the system can take care of specific (styling) issues like sorting and paginating.<br /><br /> <!-- I hate Bootstrap... --></p>
                 </div>
             </div>
         </div>
-        
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -53,6 +49,18 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="https://github.com/rollerworks/breadcrumbs-bundle">BreadcrumbsBundle</a>
+                </div>
+                <div class="panel-body">
+                    <p>Easy and powerful breadcrumbs navigation for Symfony powered applications.</p>
+                    <p class="text-success"><i class="glyphicon glyphicon-ok-sign"></i> <strong>This package requires the Symfony HTTPKernel component and can be used in any Symfony powered application (including the Symfony full stack framework)
+                        as long as the Symfony DependencyInjection component is used for dependency injection.</strong></p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <h2>Symfony bundles</h2>
@@ -60,12 +68,20 @@
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <a href="https://github.com/rollerworks/PasswordStrengthBundle">PasswordStrengthBundle</a>
+                    <a href="https://github.com/rollerworks/PasswordStrengthBundle">PasswordStrengthBundle <span class="text-danger">(<i class="glyphicon glyphicon-fire"></i> Populair)</span></a>
                 </div>
                 <div class="panel-body">
                     <p>This Symfony bundle provides a validator for ensuring strong passwords in your application.</p>
-                    <p>Passwords can be validated using either strength-levels (weak, medium, strong etc) or
-                        by configuring explicit requirements (needs letters, numbers etc).</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="https://github.com/rollerworks/RouteAutowiringBundle">RouteAutowiringBundle</a>
+                </div>
+                <div class="panel-body">
+                    <p>The RollerworksRouteAutoWiringBundle allows to import multiple route collections using an autowiring system.</p>
                 </div>
             </div>
         </div>
@@ -86,35 +102,10 @@
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <a href="https://github.com/rollerworks/breadcrumbs-bundle">BreadcrumbsBundle</a>
-                </div>
-                <div class="panel-body">
-                    <p>Easy and powerful breadcrumbs navigation for Symfony powered applications.</p>
-                    <p>This package requires the Symfony HTTPKernel component and can be used in any Symfony powered application (including the Symfony full stack framework)<br />
-                        as long as the Symfony DependencyInjection component is used for dependency injection.</p>
-                </div>
-            </div>
-        </div>     
-    </div>
-    
-    <div class="row">
-        <div class="col-md-6">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <a href="https://github.com/rollerworks/RouteAutowiringBundle">RouteAutowiringBundle</a>
-                </div>
-                <div class="panel-body">
-                    <p>The RollerworksRouteAutoWiringBundle allows to import multiple route collections using an autowiring system.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="panel panel-default">
-                <div class="panel-heading">
                     <a href="https://github.com/rollerworks/app-sectioning-bundle">Symfony Application Sectioning-configurator</a>
                 </div>
                 <div class="panel-body">
-                    <p>The AppSectioning configurator helps with separating your Symfony application into multiple sections (eg. frontend and backend).<br /> 
+                    <p>The AppSectioning configurator helps with separating your Symfony application into multiple sections (eg. frontend and backend).<br />
                         Each with there own configurable (conflict detected) URI pattern.</p>
                 </div>
             </div>
@@ -122,7 +113,7 @@
     </div>
 
     <footer>
-        <p>Copyright 2012 - 2017 Sebastiaan Stok. Provided Software packages are released under the
+        <p>Copyright 2012 - 2017 ~ Provided Software packages are released under the
             <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
     </footer>
 </div>
