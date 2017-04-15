@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="container">
-    <a href="/"><img src="img/logo.png" alt="Rollerworks - open-source software"></a>
+    <a href="/"><img src="img/logo.png" alt="Rollerworks - Open-source software"></a>
 
     <div class="jumbotron">
         <h1>Rollerworks - open-source software</h1>
@@ -15,42 +15,42 @@
             take a look at some of our projects.</p>
     </div>
 
-    <h2>Loose components</h2>
+    <h2>Standalone libraries (Components)</h2>
     <div class="row">
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <a href="https://github.com/rollerworks/RollerworksSearch">RollerworksSearch (beta)</a>
+                    <a href="https://github.com/rollerworks/search">RollerworksSearch</a>
                 </div>
                 <div class="panel-body">
                     <p>RollerworksSearch provides you with a powerful search system for your PHP applications.</p>
                     <p>Whether you want to simply search for users in your SQL database, want to provide a powerful
                         search system for searching products using an ElasticSearch back-end or are looking for an
                         easy way to abstract filtering for a reporter, everything is possible.</p>
-                    <ul>
-                        <li><a href="http://rollerworkssearch.readthedocs.org/en/latest/">Manual for master (1.0)</a></li>
-                        <li><a href="https://gitter.im/rollerworks/RollerworksSearch">Gitter chat</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-heading">
+                    <a href="https://github.com/rollerworks/datagrid">Datagrid</a>
+                </div>
+                <div class="panel-body">
+                    <p>RollerworksDatagrid provides a powerful datagrid system for your PHP applications.</p>
+                    <p>Displaying an objects list is one of the most common tasks in web applications and probably the easiest one. So how can this library help you?
+                    <p>The Datagrid system makes the styling and transforming of your data more uniform and easier to use. Secondly the system can take care of specific (styling) issues like sorting and paginating.<br /> 
+                        All without duplicating code or degrading performance.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
                     <a href="https://github.com/rollerworks/rollerworks-uri-encoder">RollerworksUriEncoder</a>
                 </div>
                 <div class="panel-body">
-                    <p>RollerworksUriEncoder - a simple library, to safely encode a string for usage in a URI.
-                        And some minor extra's, like string compression.</p>
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <a href="https://github.com/rollerworks/rollerworks-uri-encoder">RollerworksExceptionParser</a>
-                </div>
-                <div class="panel-body">
-                    <p>RollerworksExceptionParser extracts exception-data to an array. Basically it wraps multiple
-                        exception-catch blocks into one call, and returns the parsed information.</p>
+                    <p>A simple library, to safely encode a string for usage in a URI. And some minor extra's, like string compression.</p>
                 </div>
             </div>
         </div>
@@ -64,28 +64,9 @@
                     <a href="https://github.com/rollerworks/PasswordStrengthBundle">PasswordStrengthBundle</a>
                 </div>
                 <div class="panel-body">
-                    <p>This bundle provides a validator for ensuring strong passwords in Symfony2 applications.</p>
+                    <p>This Symfony bundle provides a validator for ensuring strong passwords in your application.</p>
                     <p>Passwords can be validated using either strength-levels (weak, medium, strong etc) or
                         by configuring explicit requirements (needs letters, numbers etc).</p>
-                    <ul>
-                        <li><a href="https://github.com/rollerworks/PasswordStrengthBundle/tree/master/docs">Manual for
-                            master (1.2)</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <a href="https://github.com/rollerworks/RollerworksMultiUserBundle">RollerworksMultiUserBundle (beta)</a>
-                </div>
-                <div class="panel-body">
-                    <p>The RollerworksMultiUserBundle adds support for a multi-user set-up using the FOSUserBundle. It
-                        provides a fully compatible in-place replacement for the 'fos_user' services.</p>
-                    <ul>
-                        <li><a href="https://github.com/rollerworks/RollerworksMultiUserBundle/tree/master/docs">Manual for
-                            master (1.2)</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -103,10 +84,57 @@
                 </div>
             </div>
         </div>
+        
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="https://github.com/rollerworks/breadcrumbs-bundle">BreadcrumbsBundle</a>
+                </div>
+                <div class="panel-body">
+                    <p>Easy and powerful breadcrumbs navigation for Symfony powered applications.</p>
+                    <p>This package requires the Symfony HTTPKernel component and can be used in any Symfony powered application (including the Symfony full stack framework)<br />
+                        as long as the Symfony DependencyInjection component is used for dependency injection.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="https://github.com/rollerworks/RouteAutowiringBundle">RouteAutowiringBundle</a>
+                </div>
+                <div class="panel-body">
+                    <p>The RollerworksRouteAutoWiringBundle allows to import multiple route collections using an autowiring system.</p>
+                </div>
+            </div>
+        </div>        
+    </div>
+    
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="https://github.com/rollerworks/app-sectioning-bundle">Symfony Application Sectioning-configurator</a>
+                </div>
+                <div class="panel-body">
+                    <p>The AppSectioning configurator helps with separating your Symfony application into multiple sections (eg. frontend and backend).<br /> 
+                        Each with there own configurable URI pattern.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <a href="https://github.com/rollerworks/RouteAutowiringBundle">RouteAutowiringBundle</a>
+                </div>
+                <div class="panel-body">
+                    <p>The AppSectioning configurator helps with separating your Symfony application into multiple sections (eg. frontend and backend). Each with there own configurable URI pattern.</p>
+                </div>
+            </div>
+        </div>        
     </div>
 
     <footer>
-        <p>Copyright 2012 - 2015 Sebastiaan Stok. Provided Software packages are released under the
+        <p>Copyright 2012 - 2017 Sebastiaan Stok. Provided Software packages are released under the
             <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
     </footer>
 </div>
